@@ -1,0 +1,770 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Ishika Arora - Full-Stack Developer & MCA Student at Thapar Institute. Specializing in MERN Stack, secure REST APIs, OAuth 2.0, and AI-integrated web applications.">
+    <title>Ishika Arora | Full-Stack Developer Portfolio</title>
+    <!-- Google Fonts: Inter -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- Navbar -->
+    <header class="header">
+        <div class="nav-container">
+            <a href="#landing" class="logo">IA</a>
+            <button class="mobile-nav-toggle" aria-label="Toggle navigation" aria-controls="primary-navigation" aria-expanded="false">
+                <span class="hamburger"></span>
+            </button>
+            <nav id="primary-navigation" class="nav-menu">
+                <ul>
+                    <li><a href="#landing" class="nav-link active">Home</a></li>
+                    <li><a href="#about" class="nav-link">About</a></li>
+                    <li><a href="#education" class="nav-link">Education</a></li>
+                    <li><a href="#projects" class="nav-link">Projects</a></li>
+                    <li><a href="#skills" class="nav-link">Skills</a></li>
+                    <li><a href="#achievements" class="nav-link">Achievements</a></li>
+                    <li><a href="#contact" class="nav-link">Contact</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <!-- Main Content -->
+    <main>
+        <!-- Landing Section -->
+        <section id="landing" class="section landing-section">
+            <div class="landing-background"></div>
+            <div class="container landing-container">
+                <div class="landing-content">
+                    <div class="logo-badge animate-pop">IA</div>
+                    <h1 class="landing-name animate-slide-up">Ishika Arora</h1>
+                    <div class="designation-slider animate-slide-up">
+                        <span class="designation">Full-Stack Developer</span>
+                        <span class="separator">|</span>
+                        <span class="designation">MERN Stack</span>
+                        <span class="separator">|</span>
+                        <span class="designation">AI-Integrated Web Applications</span>
+                    </div>
+                    <p class="landing-intro animate-fade-in">
+                        Motivated full-stack developer currently pursuing my Master of Computer Applications at Thapar Institute of Engineering & Technology, with hands-on experience building scalable, responsive web applications across the MERN stack. I specialize in designing secure REST APIs, implementing authentication systems like OAuth 2.0 with JWT, and integrating AI-powered features into real-world products. My work spans travel-tech, fintech-style expense tracking, and deep-learning-driven healthcare tools, reflecting a strong ability to adapt across domains. I care about writing clean, maintainable code and solving problems end-to-end, from database design to UI polish. Currently exploring opportunities to apply my skills on production-grade engineering teams. Let's build something great together.
+                    </p>
+                    <div class="landing-ctas animate-slide-up-delay">
+                        <a href="#about" class="btn btn-primary">Learn More About Me</a>
+                        <a href="#contact" class="btn btn-secondary">Get In Touch</a>
+                    </div>
+                    <div class="social-links animate-bounce-in">
+                        <a href="https://github.com/ishubajaj2906" target="_blank" rel="noopener noreferrer" class="social-icon" aria-label="GitHub">
+                            <svg viewBox="0 0 24 24" width="24" height="24" stroke="currentColor" stroke-width="2" fill="none" stroke-linecap="round" stroke-linejoin="round"><path d="M9 19c-5 1.5-5-2.5-7-3m14 6v-3.87a3.37 3.37 0 0 0-.94-2.61c3.14-.35 6.44-1.54 6.44-7A5.44 5.44 0 0 0 20 4.77 5.07 5.07 0 0 0 19.91 1S18.73.65 16 2.48a13.38 13.38 0 0 0-7 0C6.27.65 5.09 1 5.09 1A5.07 5.07 0 0 0 5 4.77a5.44 5.44 0 0 0-1.5 3.78c0 5.42 3.3 6.61 6.44 7A3.37 3.37 0 0 0 9 18.13V22"></path></svg>
+                        </a>
+                        <a href="https://www.linkedin.com/in/ishika-arora-b158ba371/" target="_blank" rel="noopener noreferrer" class="social-icon" aria-label="LinkedIn">
+                            <svg viewBox="0 0 24 24" width="24" height="24" stroke="currentColor" stroke-width="2" fill="none" stroke-linecap="round" stroke-linejoin="round"><path d="M16 8a6 6 0 0 1 6 6v7h-4v-7a2 2 0 0 0-2-2 2 2 0 0 0-2 2v7h-4v-7a6 6 0 0 1 6-6z"></path><rect x="2" y="9" width="4" height="12"></rect><circle cx="4" cy="4" r="2"></circle></svg>
+                        </a>
+                        <a href="mailto:aroraishika2906@gmail.com" class="social-icon" aria-label="Email">
+                            <svg viewBox="0 0 24 24" width="24" height="24" stroke="currentColor" stroke-width="2" fill="none" stroke-linecap="round" stroke-linejoin="round"><path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"></path><polyline points="22,6 12,13 2,6"></polyline></svg>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- About Me Section -->
+        <section id="about" class="section about-section scroll-spy-section">
+            <div class="container">
+                <h2 class="section-title">About Me</h2>
+                <div class="about-grid">
+                    <div class="about-left">
+                        <div class="image-wrapper animate-slide-left">
+                            <div class="profile-photo-container">
+                                <img src="profile.jpg" alt="Ishika Arora" class="profile-photo" onerror="this.onerror=null; this.src='data:image/svg+xml;utf8,<svg xmlns=%22http://www.w3.org/2000/svg%22 width=%22400%22 height=%22400%22 viewBox=%220 0 100 100%22><rect width=%22100%22 height=%22100%22 fill=%22%230B0F19%22/><text x=%2250%22 y=%2255%22 font-family=%22Inter, sans-serif%22 font-size=%2222%22 fill=%22%2300D2FF%22 font-weight=%22bold%22 text-anchor=%22middle%22>IA</text></svg>';">
+                            </div>
+                            <div class="photo-glow"></div>
+                        </div>
+                        <div class="work-nav animate-stagger-up">
+                            <p class="nav-heading">View My Work</p>
+                            <div class="work-nav-buttons">
+                                <a href="#education" class="nav-btn-link">Education<span class="btn-line"></span></a>
+                                <a href="#projects" class="nav-btn-link">Projects<span class="btn-line"></span></a>
+                                <a href="#skills" class="nav-btn-link">Skills<span class="btn-line"></span></a>
+                                <a href="#achievements" class="nav-btn-link">Achievements<span class="btn-line"></span></a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="about-right">
+                        <p class="about-summary animate-fade-in-up">
+                            I'm a detail-oriented developer who enjoys turning complex problems into clean, scalable web applications. My core toolkit is HTML5, React.js, Node.js, Express.js, and MongoDB, and I'm comfortable working across the full stack — from designing REST APIs to building responsive, accessible interfaces. I've architected a secure OAuth 2.0 authentication system from scratch, built a full-stack travel planning platform with real-time Google Maps integration, and developed an AI-powered expense tracker with JWT-secured APIs. Outside of pure web development, I've also worked with TensorFlow, Keras, and OpenCV to build a retinal disease detection system, showing my range across both software engineering and applied machine learning.
+                        </p>
+                        <p class="about-summary animate-fade-in-up" style="animation-delay: 0.1s;">
+                            I'm currently completing my MCA at Thapar Institute of Engineering & Technology, where I've deepened my foundations in data structures, DBMS, operating systems, and computer networks. I thrive in dynamic environments, having coordinated recruiter-student communication as a Placement Representative and led a winning team at an AI-powered learning platform hackathon. I'm looking for opportunities to bring this mix of technical depth and adaptability to a product-focused engineering team.
+                        </p>
+                        <div class="mission-vision-grid">
+                            <div class="mv-card mission-card animate-flip-y">
+                                <div class="card-inner">
+                                    <div class="card-face card-front">
+                                        <div class="card-icon">
+                                            <svg viewBox="0 0 24 24" width="28" height="28" stroke="currentColor" stroke-width="2" fill="none" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="10"></circle><circle cx="12" cy="12" r="6"></circle><circle cx="12" cy="12" r="2"></circle></svg>
+                                        </div>
+                                        <h3>Our Mission</h3>
+                                        <p class="flip-hint">Hover to Flip</p>
+                                    </div>
+                                    <div class="card-face card-back">
+                                        <h3>Mission</h3>
+                                        <p>To build reliable, well-architected software that solves real problems, while continuously deepening my expertise across the full stack and emerging AI technologies.</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="mv-card vision-card animate-flip-y" style="animation-delay: 0.2s;">
+                                <div class="card-inner">
+                                    <div class="card-face card-front">
+                                        <div class="card-icon">
+                                            <svg viewBox="0 0 24 24" width="28" height="28" stroke="currentColor" stroke-width="2" fill="none" stroke-linecap="round" stroke-linejoin="round"><path d="M1 12s4-8 11-8 11 8 11 8-4 8-11 8-11-8-11-8z"></path><circle cx="12" cy="12" r="3"></circle></svg>
+                                        </div>
+                                        <h3>Our Vision</h3>
+                                        <p class="flip-hint">Hover to Flip</p>
+                                    </div>
+                                    <div class="card-face card-back">
+                                        <h3>Vision</h3>
+                                        <p>To grow into a full-stack engineer known for shipping secure, scalable, and thoughtfully designed products that make a measurable difference for users.</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Education Section -->
+        <section id="education" class="section education-section scroll-spy-section">
+            <div class="container">
+                <h2 class="section-title">Education</h2>
+                <div class="education-grid">
+                    <div class="education-card-wrapper animate-drop-in">
+                        <div class="education-card">
+                            <!-- Trace border overlay SVG -->
+                            <svg class="card-border-trace" width="100%" height="100%">
+                                <rect x="0" y="0" width="100%" height="100%" rx="16" fill="none" />
+                            </svg>
+                            <div class="edu-card-content">
+                                <div class="edu-header">
+                                    <div class="edu-logo-wrapper">
+                                        <svg class="edu-cap-icon" viewBox="0 0 24 24" width="40" height="40" stroke="currentColor" stroke-width="2" fill="none" stroke-linecap="round" stroke-linejoin="round">
+                                            <path d="M22 10v6M2 10l10-5 10 5-10 5z"></path>
+                                            <path d="M6 12v5c0 2 2 3 6 3s6-1 6-3v-5"></path>
+                                        </svg>
+                                    </div>
+                                    <div class="edu-title-block">
+                                        <h3>Thapar Institute of Engineering & Technology</h3>
+                                        <p class="qualification">Master of Computer Applications (MCA)</p>
+                                        <span class="duration">July 2024 – June 2026 | Full-time</span>
+                                    </div>
+                                </div>
+                                <div class="edu-body">
+                                    <p class="highlight-title">Key Highlights</p>
+                                    <ul class="highlight-list">
+                                        <li class="typewriter-bullet">Deepened foundations in Data Structures, OOPs, DBMS, Operating Systems, and Computer Networks</li>
+                                        <li class="typewriter-bullet">Applied coursework directly to projects involving secure authentication (OAuth 2.0) and full-stack architecture</li>
+                                        <li class="typewriter-bullet">Built practical experience with REST API design and modern development tooling (Git, Docker, Postman)</li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Projects Section -->
+        <section id="projects" class="section projects-section scroll-spy-section">
+            <div class="container">
+                <h2 class="section-title">Projects</h2>
+                <div class="projects-list">
+                    <!-- Project 1 -->
+                    <div class="project-card">
+                        <div class="project-left-panel animate-slide-left-blur">
+                            <span class="project-type">Backend / Security</span>
+                            <h3 class="project-title">Custom OAuth 2.0 Implementation</h3>
+                            <div class="tech-tags">
+                                <span class="tag animate-rubber">Node.js</span>
+                                <span class="tag animate-rubber">JWT</span>
+                                <span class="tag animate-rubber">Express.js</span>
+                            </div>
+                        </div>
+                        <div class="project-right-panel animate-fade-in-delay">
+                            <p class="project-description">A secure OAuth 2.0 authentication system using Authorization Code Grant flow with JWT-based authentication, featuring modular Authorization and Resource servers aligned with microservices architecture principles.</p>
+                            <div class="outcomes-grid">
+                                <div class="outcome-box animate-deal">
+                                    <span class="outcome-number">01</span>
+                                    <p>Architected a secure OAuth 2.0 authentication system using Authorization Code Grant flow and JWT-based authentication</p>
+                                </div>
+                                <div class="outcome-box animate-deal">
+                                    <span class="outcome-number">02</span>
+                                    <p>Implemented token lifecycle management including generation, validation, expiry handling, and secure access control</p>
+                                </div>
+                                <div class="outcome-box animate-deal">
+                                    <span class="outcome-number">03</span>
+                                    <p>Developed protected REST APIs with scoped permissions and authentication middleware for secure communication</p>
+                                </div>
+                                <div class="outcome-box animate-deal">
+                                    <span class="outcome-number">04</span>
+                                    <p>Performed end-to-end API testing using Postman to validate authentication workflows and token security</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Project 2 -->
+                    <div class="project-card">
+                        <div class="project-left-panel animate-slide-left-blur">
+                            <span class="project-type">Full-Stack Web App</span>
+                            <h3 class="project-title">Travel Ease System</h3>
+                            <div class="tech-tags">
+                                <span class="tag animate-rubber">React.js</span>
+                                <span class="tag animate-rubber">Node.js</span>
+                                <span class="tag animate-rubber">Express.js</span>
+                                <span class="tag animate-rubber">MongoDB</span>
+                                <span class="tag animate-rubber">Google Maps API</span>
+                            </div>
+                        </div>
+                        <div class="project-right-panel animate-fade-in-delay">
+                            <p class="project-description">A responsive travel planning platform with real-time location features, built to streamline trip planning and user navigation with integrated backend services.</p>
+                            <div class="outcomes-grid">
+                                <div class="outcome-box animate-deal">
+                                    <span class="outcome-number">01</span>
+                                    <p>Engineered a responsive travel planning platform using React.js to improve user navigation and accessibility</p>
+                                </div>
+                                <div class="outcome-box animate-deal">
+                                    <span class="outcome-number">02</span>
+                                    <p>Built RESTful backend services with Node.js and Express.js for efficient trip and user management workflows</p>
+                                </div>
+                                <div class="outcome-box animate-deal">
+                                    <span class="outcome-number">03</span>
+                                    <p>Optimized MongoDB queries and backend operations to enhance application performance and data retrieval speed</p>
+                                </div>
+                                <div class="outcome-box animate-deal">
+                                    <span class="outcome-number">04</span>
+                                    <p>Integrated Google Maps API for real-time route tracking, location-based services, and travel assistance features</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Project 3 -->
+                    <div class="project-card">
+                        <div class="project-left-panel animate-slide-left-blur">
+                            <span class="project-type">Full-Stack Web App</span>
+                            <h3 class="project-title">Expense Tracker</h3>
+                            <div class="tech-tags">
+                                <span class="tag animate-rubber">Node.js</span>
+                                <span class="tag animate-rubber">Express.js</span>
+                                <span class="tag animate-rubber">MongoDB</span>
+                                <span class="tag animate-rubber">JWT</span>
+                                <span class="tag animate-rubber">REST API</span>
+                            </div>
+                        </div>
+                        <div class="project-right-panel animate-fade-in-delay">
+                            <p class="project-description">A full-stack expense tracking application with secure user authentication using JWT, enabling users to manage income, expenses, and transactions with comprehensive financial insights.</p>
+                            <div class="outcomes-grid">
+                                <div class="outcome-box animate-deal">
+                                    <span class="outcome-number">01</span>
+                                    <p>Developed a full-stack expense tracking application with secure user authentication using JWT</p>
+                                </div>
+                                <div class="outcome-box animate-deal">
+                                    <span class="outcome-number">02</span>
+                                    <p>Implemented CRUD operations for income and expense management with MongoDB database integration</p>
+                                </div>
+                                <div class="outcome-box animate-deal">
+                                    <span class="outcome-number">03</span>
+                                    <p>Added features such as expense categorization, monthly summaries, budget tracking, and transaction history</p>
+                                </div>
+                                <div class="outcome-box animate-deal">
+                                    <span class="outcome-number">04</span>
+                                    <p>Optimized backend performance with proper validation, error handling, and secure API endpoints</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Project 4 -->
+                    <div class="project-card">
+                        <div class="project-left-panel animate-slide-left-blur">
+                            <span class="project-type">Applied Machine Learning</span>
+                            <h3 class="project-title">Retinify — Retinal Disease Detection</h3>
+                            <div class="tech-tags">
+                                <span class="tag animate-rubber">Python</span>
+                                <span class="tag animate-rubber">TensorFlow</span>
+                                <span class="tag animate-rubber">Keras</span>
+                                <span class="tag animate-rubber">OpenCV</span>
+                                <span class="tag animate-rubber">Tkinter</span>
+                            </div>
+                        </div>
+                        <div class="project-right-panel animate-fade-in-delay">
+                            <p class="project-description">A desktop application that detects retinal diseases from fundus images using deep learning models, aimed at supporting faster, more accessible diagnosis and patient care.</p>
+                            <div class="outcomes-grid">
+                                <div class="outcome-box animate-deal">
+                                    <span class="outcome-number">01</span>
+                                    <p>Developed a desktop application to detect retinal diseases from fundus images using deep learning models</p>
+                                </div>
+                                <div class="outcome-box animate-deal">
+                                    <span class="outcome-number">02</span>
+                                    <p>Integrated pre-trained CNN models for the classification of cataract, glaucoma, hypertension, and other retinal conditions</p>
+                                </div>
+                                <div class="outcome-box animate-deal">
+                                    <span class="outcome-number">03</span>
+                                    <p>Built an intuitive GUI using Tkinter for image upload, disease prediction, and confidence score visualization</p>
+                                </div>
+                                <div class="outcome-box animate-deal">
+                                    <span class="outcome-number">04</span>
+                                    <p>Implemented image preprocessing using OpenCV and TensorFlow to improve prediction accuracy</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Skills Section -->
+        <section id="skills" class="section skills-section scroll-spy-section">
+            <div class="container">
+                <h2 class="section-title">Skills</h2>
+                <div class="skills-grid">
+                    <!-- Programming Languages -->
+                    <div class="skill-category-card animate-grid-wave">
+                        <div class="skill-header">
+                            <div class="skill-icon">
+                                <svg viewBox="0 0 24 24" width="24" height="24" stroke="currentColor" stroke-width="2" fill="none" stroke-linecap="round" stroke-linejoin="round"><polyline points="16 18 22 12 16 6"></polyline><polyline points="8 6 2 12 8 18"></polyline></svg>
+                            </div>
+                            <h3>Programming Languages</h3>
+                        </div>
+                        <div class="skill-items">
+                            <div class="skill-bar-wrapper">
+                                <div class="skill-info">
+                                    <span>JavaScript</span>
+                                    <span class="percentage" data-value="90">0%</span>
+                                </div>
+                                <div class="bar-bg">
+                                    <div class="bar-fill" style="--width-val: 90%;"></div>
+                                </div>
+                            </div>
+                            <div class="skill-bar-wrapper">
+                                <div class="skill-info">
+                                    <span>Python</span>
+                                    <span class="percentage" data-value="80">0%</span>
+                                </div>
+                                <div class="bar-bg">
+                                    <div class="bar-fill" style="--width-val: 80%;"></div>
+                                </div>
+                            </div>
+                            <div class="skill-bar-wrapper">
+                                <div class="skill-info">
+                                    <span>C++</span>
+                                    <span class="percentage" data-value="75">0%</span>
+                                </div>
+                                <div class="bar-bg">
+                                    <div class="bar-fill" style="--width-val: 75%;"></div>
+                                </div>
+                            </div>
+                            <div class="skill-bar-wrapper">
+                                <div class="skill-info">
+                                    <span>C</span>
+                                    <span class="percentage" data-value="70">0%</span>
+                                </div>
+                                <div class="bar-bg">
+                                    <div class="bar-fill" style="--width-val: 70%;"></div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Frontend -->
+                    <div class="skill-category-card animate-grid-wave">
+                        <div class="skill-header">
+                            <div class="skill-icon">
+                                <svg viewBox="0 0 24 24" width="24" height="24" stroke="currentColor" stroke-width="2" fill="none" stroke-linecap="round" stroke-linejoin="round"><rect x="2" y="3" width="20" height="14" rx="2" ry="2"></rect><line x1="8" y1="21" x2="16" y2="21"></line><line x1="12" y1="17" x2="12" y2="21"></line></svg>
+                            </div>
+                            <h3>Frontend</h3>
+                        </div>
+                        <div class="skill-items">
+                            <div class="skill-bar-wrapper">
+                                <div class="skill-info">
+                                    <span>React.js</span>
+                                    <span class="percentage" data-value="88">0%</span>
+                                </div>
+                                <div class="bar-bg">
+                                    <div class="bar-fill" style="--width-val: 88%;"></div>
+                                </div>
+                            </div>
+                            <div class="skill-bar-wrapper">
+                                <div class="skill-info">
+                                    <span>HTML5</span>
+                                    <span class="percentage" data-value="92">0%</span>
+                                </div>
+                                <div class="bar-bg">
+                                    <div class="bar-fill" style="--width-val: 92%;"></div>
+                                </div>
+                            </div>
+                            <div class="skill-bar-wrapper">
+                                <div class="skill-info">
+                                    <span>CSS</span>
+                                    <span class="percentage" data-value="85">0%</span>
+                                </div>
+                                <div class="bar-bg">
+                                    <div class="bar-fill" style="--width-val: 85%;"></div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Backend -->
+                    <div class="skill-category-card animate-grid-wave">
+                        <div class="skill-header">
+                            <div class="skill-icon">
+                                <svg viewBox="0 0 24 24" width="24" height="24" stroke="currentColor" stroke-width="2" fill="none" stroke-linecap="round" stroke-linejoin="round"><rect x="2" y="2" width="20" height="8" rx="2" ry="2"></rect><rect x="2" y="14" width="20" height="8" rx="2" ry="2"></rect><line x1="6" y1="6" x2="6.01" y2="6"></line><line x1="6" y1="18" x2="6.01" y2="18"></line></svg>
+                            </div>
+                            <h3>Backend</h3>
+                        </div>
+                        <div class="skill-items">
+                            <div class="skill-bar-wrapper">
+                                <div class="skill-info">
+                                    <span>Node.js</span>
+                                    <span class="percentage" data-value="88">0%</span>
+                                </div>
+                                <div class="bar-bg">
+                                    <div class="bar-fill" style="--width-val: 88%;"></div>
+                                </div>
+                            </div>
+                            <div class="skill-bar-wrapper">
+                                <div class="skill-info">
+                                    <span>Express.js</span>
+                                    <span class="percentage" data-value="85">0%</span>
+                                </div>
+                                <div class="bar-bg">
+                                    <div class="bar-fill" style="--width-val: 85%;"></div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Databases -->
+                    <div class="skill-category-card animate-grid-wave">
+                        <div class="skill-header">
+                            <div class="skill-icon">
+                                <svg viewBox="0 0 24 24" width="24" height="24" stroke="currentColor" stroke-width="2" fill="none" stroke-linecap="round" stroke-linejoin="round"><ellipse cx="12" cy="5" rx="9" ry="3"></ellipse><path d="M3 5v14c0 1.66 4 3 9 3s9-1.34 9-3V5"></path><path d="M3 12c0 1.66 4 3 9 3s9-1.34 9-3"></path></svg>
+                            </div>
+                            <h3>Databases</h3>
+                        </div>
+                        <div class="skill-items">
+                            <div class="skill-bar-wrapper">
+                                <div class="skill-info">
+                                    <span>MongoDB</span>
+                                    <span class="percentage" data-value="85">0%</span>
+                                </div>
+                                <div class="bar-bg">
+                                    <div class="bar-fill" style="--width-val: 85%;"></div>
+                                </div>
+                            </div>
+                            <div class="skill-bar-wrapper">
+                                <div class="skill-info">
+                                    <span>MySQL</span>
+                                    <span class="percentage" data-value="75">0%</span>
+                                </div>
+                                <div class="bar-bg">
+                                    <div class="bar-fill" style="--width-val: 75%;"></div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Tools & DevOps -->
+                    <div class="skill-category-card animate-grid-wave">
+                        <div class="skill-header">
+                            <div class="skill-icon">
+                                <svg viewBox="0 0 24 24" width="24" height="24" stroke="currentColor" stroke-width="2" fill="none" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="10"></circle><circle cx="12" cy="12" r="1"></circle><path d="M12 2a15.3 15.3 0 0 1 4 10 15.3 15.3 0 0 1-4 10 15.3 15.3 0 0 1-4-10 15.3 15.3 0 0 1 4-10z"></path><path d="M2 12h20"></path></svg>
+                            </div>
+                            <h3>Tools & DevOps</h3>
+                        </div>
+                        <div class="skill-items">
+                            <div class="skill-bar-wrapper">
+                                <div class="skill-info">
+                                    <span>Git & GitHub</span>
+                                    <span class="percentage" data-value="90">0%</span>
+                                </div>
+                                <div class="bar-bg">
+                                    <div class="bar-fill" style="--width-val: 90%;"></div>
+                                </div>
+                            </div>
+                            <div class="skill-bar-wrapper">
+                                <div class="skill-info">
+                                    <span>Docker</span>
+                                    <span class="percentage" data-value="75">0%</span>
+                                </div>
+                                <div class="bar-bg">
+                                    <div class="bar-fill" style="--width-val: 75%;"></div>
+                                </div>
+                            </div>
+                            <div class="skill-bar-wrapper">
+                                <div class="skill-info">
+                                    <span>Postman</span>
+                                    <span class="percentage" data-value="85">0%</span>
+                                </div>
+                                <div class="bar-bg">
+                                    <div class="bar-fill" style="--width-val: 85%;"></div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Core CS Concepts -->
+                    <div class="skill-category-card animate-grid-wave">
+                        <div class="skill-header">
+                            <div class="skill-icon">
+                                <svg viewBox="0 0 24 24" width="24" height="24" stroke="currentColor" stroke-width="2" fill="none" stroke-linecap="round" stroke-linejoin="round"><path d="M4 19.5A2.5 2.5 0 0 1 6.5 17H20"></path><path d="M6.5 2H20v20H6.5A2.5 2.5 0 0 1 4 19.5v-15A2.5 2.5 0 0 1 6.5 2z"></path></svg>
+                            </div>
+                            <h3>Core CS Concepts</h3>
+                        </div>
+                        <div class="skill-items">
+                            <div class="skill-bar-wrapper">
+                                <div class="skill-info">
+                                    <span>REST APIs</span>
+                                    <span class="percentage" data-value="90">0%</span>
+                                </div>
+                                <div class="bar-bg">
+                                    <div class="bar-fill" style="--width-val: 90%;"></div>
+                                </div>
+                            </div>
+                            <div class="skill-bar-wrapper">
+                                <div class="skill-info">
+                                    <span>Data Structures</span>
+                                    <span class="percentage" data-value="80">0%</span>
+                                </div>
+                                <div class="bar-bg">
+                                    <div class="bar-fill" style="--width-val: 80%;"></div>
+                                </div>
+                            </div>
+                            <div class="skill-bar-wrapper">
+                                <div class="skill-info">
+                                    <span>OOPs</span>
+                                    <span class="percentage" data-value="85">0%</span>
+                                </div>
+                                <div class="bar-bg">
+                                    <div class="bar-fill" style="--width-val: 85%;"></div>
+                                </div>
+                            </div>
+                            <div class="skill-bar-wrapper">
+                                <div class="skill-info">
+                                    <span>DBMS</span>
+                                    <span class="percentage" data-value="80">0%</span>
+                                </div>
+                                <div class="bar-bg">
+                                    <div class="bar-fill" style="--width-val: 80%;"></div>
+                                </div>
+                            </div>
+                            <div class="skill-bar-wrapper">
+                                <div class="skill-info">
+                                    <span>Operating Systems</span>
+                                    <span class="percentage" data-value="75">0%</span>
+                                </div>
+                                <div class="bar-bg">
+                                    <div class="bar-fill" style="--width-val: 75%;"></div>
+                                </div>
+                            </div>
+                            <div class="skill-bar-wrapper">
+                                <div class="skill-info">
+                                    <span>Computer Networks</span>
+                                    <span class="percentage" data-value="75">0%</span>
+                                </div>
+                                <div class="bar-bg">
+                                    <div class="bar-fill" style="--width-val: 75%;"></div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Achievements Section -->
+        <section id="achievements" class="section achievements-section scroll-spy-section">
+            <div class="container">
+                <div class="achievements-header text-center">
+                    <h2 class="section-title">Achievements & Recognition</h2>
+                    <p class="section-subtitle">Milestones from my academic and leadership journey so far.</p>
+                </div>
+
+                <!-- Stats Panel -->
+                <!-- <div class="stats-grid">
+                    <div class="stat-card">
+                        <div class="stat-value">1+</div>
+                        <p class="stat-label">Years Building Projects</p>
+                    </div>
+                    <div class="stat-card">
+                        <div class="stat-value">4</div>
+                        <p class="stat-label">Projects</p>
+                    </div>
+                    <div class="stat-card">
+                        <div class="stat-value">1</div>
+                        <p class="stat-label">Hackathon Won</p>
+                    </div>
+                    <div class="stat-card">
+                        <div class="stat-value">1</div>
+                        <p class="stat-label">Leadership Role</p>
+                    </div>
+                </div>
+
+                <div class="achievements-cards-grid"> -->
+                    <!-- Achievement 1 -->
+                    <div class="achievement-card animate-zoom-in">
+                        <div class="achievement-border"></div>
+                        <div class="achievement-badge-container">
+                            <span class="category-badge professional">Professional</span>
+                            <div class="badge-icon-wrap">
+                                <svg class="badge-icon" viewBox="0 0 24 24" width="36" height="36" stroke="currentColor" stroke-width="2" fill="none" stroke-linecap="round" stroke-linejoin="round">
+                                    <path d="M6 9H4.5a2.5 2.5 0 0 1 0-5H6M18 9h1.5a2.5 2.5 0 0 0 0-5H18M4 22h16M10 14.66V17c0 .55-.45 1-1 1H4v2h16v-2h-5c-.55 0-1-.45-1-1v-2.34"></path>
+                                    <path d="M12 2a5 5 0 0 1 5 5v3.66a8 8 0 0 1-10 0V7a5 5 0 0 1 5-5z"></path>
+                                </svg>
+                            </div>
+                        </div>
+                        <div class="achievement-content">
+                            <h3>Hackathon Winner – AI-Powered Interactive Learning Platform</h3>
+                            <p class="achievement-year">2025</p>
+                            <p class="achievement-desc">Developed an AI-powered learning platform using React.js, Node.js, and OpenAI APIs, with real-time chatbot support alongside video lectures. Integrated transcript extraction and OpenAI APIs for contextual Q&A, and managed AI conversation state based on video playback for personalized, context-aware assistance.</p>
+                        </div>
+                    </div>
+
+                    <!-- Achievement 2 -->
+                    <div class="achievement-card animate-zoom-in" style="animation-delay: 0.15s;">
+                        <div class="achievement-border"></div>
+                        <div class="achievement-badge-container">
+                            <span class="category-badge academic">Academic</span>
+                            <div class="badge-icon-wrap">
+                                <svg class="badge-icon" viewBox="0 0 24 24" width="36" height="36" stroke="currentColor" stroke-width="2" fill="none" stroke-linecap="round" stroke-linejoin="round">
+                                    <path d="M17 21v-2a4 4 0 0 0-4-4H5a4 4 0 0 0-4 4v2"></path>
+                                    <circle cx="9" cy="7" r="4"></circle>
+                                    <path d="M23 21v-2a4 4 0 0 0-3-3.87"></path>
+                                    <path d="M16 3.13a4 4 0 0 1 0 7.75"></path>
+                                </svg>
+                            </div>
+                        </div>
+                        <div class="achievement-content">
+                            <h3>Student Placement Representative</h3>
+                            <p class="achievement-year">2025 - 2026</p>
+                            <p class="achievement-desc">Coordinated between recruiters and students during placement activities, managing communication and handling dynamic change requests efficiently in a cross-functional environment.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Contact Section -->
+        <section id="contact" class="section contact-section scroll-spy-section">
+            <div class="container">
+                <h2 class="section-title">Let's Connect</h2>
+                <div class="contact-grid">
+                    <!-- Left Column: Form -->
+                    <!-- <div class="contact-form-panel animate-slide-bottom-left">
+                        <form id="contact-form" action="mailto:aroraishika2906@gmail.com" method="post" enctype="text/plain">
+                            <div class="form-group">
+                                <input type="text" id="name" name="name" required placeholder=" ">
+                                <label for="name">Full Name</label>
+                                <div class="field-underline"></div>
+                            </div>
+                            <div class="form-group">
+                                <input type="email" id="email" name="email" required placeholder=" ">
+                                <label for="email">Email Address</label>
+                                <div class="field-underline"></div>
+                            </div>
+                            <div class="form-group">
+                                <input type="text" id="subject" name="subject" required placeholder=" ">
+                                <label for="subject">Subject</label>
+                                <div class="field-underline"></div>
+                            </div>
+                            <div class="form-group">
+                                <textarea id="message" name="message" required placeholder=" " rows="5"></textarea>
+                                <label for="message">Message</label>
+                                <div class="field-underline"></div>
+                            </div>
+                            <button type="submit" class="btn-submit animate-pulse">
+                                <span>Send Message</span>
+                                <div class="shimmer-sweep"></div>
+                            </button>
+                        </form>
+                    </div> -->
+
+                    <!-- Right Column: Info -->
+                    <div class="contact-info-panel animate-slide-bottom-right">
+                        <div class="info-block">
+                            <h3>Contact Information</h3>
+                            <p class="info-tagline">Feel free to reach out via any of the channels below or use the form.</p>
+                        </div>
+                        <div class="info-rows">
+                            <div class="info-row">
+                                <div class="info-icon">
+                                    <svg viewBox="0 0 24 24" width="22" height="22" stroke="currentColor" stroke-width="2" fill="none" stroke-linecap="round" stroke-linejoin="round"><path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"></path><polyline points="22,6 12,13 2,6"></polyline></svg>
+                                </div>
+                                <div class="info-details">
+                                    <span class="info-label">Email</span>
+                                    <a href="mailto:aroraishika2906@gmail.com" class="info-value">aroraishika2906@gmail.com</a>
+                                </div>
+                            </div>
+                            <div class="info-row">
+                                <div class="info-icon">
+                                    <svg viewBox="0 0 24 24" width="22" height="22" stroke="currentColor" stroke-width="2" fill="none" stroke-linecap="round" stroke-linejoin="round"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z"></path></svg>
+                                </div>
+                                <div class="info-details">
+                                    <span class="info-label">Phone</span>
+                                    <a href="tel:+919983285888" class="info-value">+91-9983285888</a>
+                                </div>
+                            </div>
+                            <div class="info-row">
+                                <div class="info-icon">
+                                    <svg viewBox="0 0 24 24" width="22" height="22" stroke="currentColor" stroke-width="2" fill="none" stroke-linecap="round" stroke-linejoin="round"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"></path><circle cx="12" cy="10" r="3"></circle></svg>
+                                </div>
+                                <!-- <div class="info-details">
+                                    <span class="info-label">Location</span>
+                                    <span class="info-value">Patiala, Punjab, India</span>
+                                </div> -->
+                            </div>
+                        </div>
+
+                        <div class="info-socials">
+                            <a href="https://github.com/ishubajaj2906" target="_blank" rel="noopener noreferrer" class="social-icon" aria-label="GitHub">
+                                <svg viewBox="0 0 24 24" width="22" height="22" stroke="currentColor" stroke-width="2" fill="none" stroke-linecap="round" stroke-linejoin="round"><path d="M9 19c-5 1.5-5-2.5-7-3m14 6v-3.87a3.37 3.37 0 0 0-.94-2.61c3.14-.35 6.44-1.54 6.44-7A5.44 5.44 0 0 0 20 4.77 5.07 5.07 0 0 0 19.91 1S18.73.65 16 2.48a13.38 13.38 0 0 0-7 0C6.27.65 5.09 1 5.09 1A5.07 5.07 0 0 0 5 4.77a5.44 5.44 0 0 0-1.5 3.78c0 5.42 3.3 6.61 6.44 7A3.37 3.37 0 0 0 9 18.13V22"></path></svg>
+                            </a>
+                            <a href="https://www.linkedin.com/in/ishika-arora-b158ba371/" target="_blank" rel="noopener noreferrer" class="social-icon" aria-label="LinkedIn">
+                                <svg viewBox="0 0 24 24" width="22" height="22" stroke="currentColor" stroke-width="2" fill="none" stroke-linecap="round" stroke-linejoin="round"><path d="M16 8a6 6 0 0 1 6 6v7h-4v-7a2 2 0 0 0-2-2 2 2 0 0 0-2 2v7h-4v-7a6 6 0 0 1 6-6z"></path><rect x="2" y="9" width="4" height="12"></rect><circle cx="4" cy="4" r="2"></circle></svg>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container footer-container">
+            <div class="footer-left">
+                <span class="footer-logo">Ishika Arora</span>
+                <p class="footer-tagline">Building scalable web experiences, one clean line of code at a time.</p>
+            </div>
+            <div class="footer-right">
+                <div class="footer-socials">
+                    <a href="https://github.com/ishubajaj2906" target="_blank" rel="noopener noreferrer" aria-label="GitHub">
+                        <svg viewBox="0 0 24 24" width="20" height="20" stroke="currentColor" stroke-width="2" fill="none" stroke-linecap="round" stroke-linejoin="round"><path d="M9 19c-5 1.5-5-2.5-7-3m14 6v-3.87a3.37 3.37 0 0 0-.94-2.61c3.14-.35 6.44-1.54 6.44-7A5.44 5.44 0 0 0 20 4.77 5.07 5.07 0 0 0 19.91 1S18.73.65 16 2.48a13.38 13.38 0 0 0-7 0C6.27.65 5.09 1 5.09 1A5.07 5.07 0 0 0 5 4.77a5.44 5.44 0 0 0-1.5 3.78c0 5.42 3.3 6.61 6.44 7A3.37 3.37 0 0 0 9 18.13V22"></path></svg>
+                    </a>
+                    <a href="https://www.linkedin.com/in/ishika-arora-b158ba371/" target="_blank" rel="noopener noreferrer" aria-label="LinkedIn">
+                        <svg viewBox="0 0 24 24" width="20" height="20" stroke="currentColor" stroke-width="2" fill="none" stroke-linecap="round" stroke-linejoin="round"><path d="M16 8a6 6 0 0 1 6 6v7h-4v-7a2 2 0 0 0-2-2 2 2 0 0 0-2 2v7h-4v-7a6 6 0 0 1 6-6z"></path><rect x="2" y="9" width="4" height="12"></rect><circle cx="4" cy="4" r="2"></circle></svg>
+                    </a>
+                </div>
+                <p class="copyright">&copy; 2026 Ishika Arora. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
